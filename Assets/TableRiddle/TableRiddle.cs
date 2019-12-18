@@ -21,7 +21,7 @@ public class TableRiddle : MonoBehaviour
         cube4OK = false;
         rb = GetComponent<Rigidbody>();
         riddleSolved = false;
-        key = GameObject.Find("key_gold").GetComponent<GameObject>();
+        key = GameObject.Find("key_gold");
     }
 
     // Update is called once per frame

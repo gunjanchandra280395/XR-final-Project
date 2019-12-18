@@ -9,7 +9,7 @@ public class Doors : MonoBehaviour
     void Start()
     {
         doorOpen = false;
-        animator = GetComponent<Animator>();
+        animator = GameObject.Find("DoorParent").GetComponent< Animator>();
     }
 
     void OnTriggerEnter(Collider col)
