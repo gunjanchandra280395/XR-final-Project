@@ -5203,6 +5203,16 @@ PrefabInstance:
       propertyPath: enabledAudioCapture
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114049495714720478, guid: 3d351ebe8fdb877448e55b2210c8ab6d,
+        type: 3}
+      propertyPath: startEncoding
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 114049495714720478, guid: 3d351ebe8fdb877448e55b2210c8ab6d,
+        type: 3}
+      propertyPath: stopEncoding
+      value: 118
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d351ebe8fdb877448e55b2210c8ab6d, type: 3}
 --- !u!1001 &1304391654
