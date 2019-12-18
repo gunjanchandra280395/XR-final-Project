@@ -32,7 +32,7 @@ public class TableRiddle : MonoBehaviour
         cube3OK = Cube3Detection.isCube3Inside;
         cube4OK = Cube4Detection.isCube4Inside;
 
-        if(cube1OK)// && cube2OK && cube3OK && cube4OK)
+        if(cube1OK && cube2OK && cube3OK && cube4OK)
         {
             riddleSolved = true;
         }
